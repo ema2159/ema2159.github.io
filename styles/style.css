@@ -6,168 +6,169 @@
 
 /* Tag selectors */
 html {
-    height: 100%;
+  height: 100%;
 }
 
 body {
-    min-height: 100%;
-    margin: 0;
-    text-align: center;
-    font-family: roboto, sans-serif;
-    font-family: 'Rajdhani', sans-serif;
+  min-height: 100%;
+  margin: 0;
+  text-align: center;
+  font-family: roboto, sans-serif;
+  font-family: "Rajdhani", sans-serif;
 }
 
 h1 {
-    color: #004a7c;
-    font-family: 'Dancing Script', cursive;
-    font-size: 4.37rem;
-    margin-top: 40px;
-    margin-bottom: 0;
+  color: #004a7c;
+  font-family: "Dancing Script", cursive;
+  font-size: 4.37rem;
+  margin-top: 40px;
+  margin-bottom: 0;
 }
 
 h2 {
-    color: #e8f1f5;
-    font-family: 'Rajdhani', serif;
-    font-size: 2.5rem;
+  color: #e8f1f5;
+  font-family: "Rajdhani", serif;
+  font-size: 2.5rem;
 }
 
 h3 {
-    color: #fafafa;
-    font-family: 'Rajdhani', serif;
-    font-size: 1.5rem;
+  color: #fafafa;
+  font-family: "Rajdhani", serif;
+  font-size: 1.5rem;
 }
 
 a {
-    color: #e8f1f5;
+  color: #e8f1f5;
 }
 
 p {
-    color: white;
-    font-size: 1.3rem;
+  color: white;
+  font-size: 1.3rem;
 }
 
 /* Class selectors */
 
 .dark-text {
-    color: #005691;
+  color: #005691;
 }
 
 /**************** Containers ******************/
 
 .top-container {
-    background-color: #fafafa;
-    position: relative;
-    padding-top: 100px;
+  background-color: #fafafa;
+  position: relative;
+  padding-top: 100px;
 }
 
 .middle-container {
-    background-color: #004a7c;
+  background-color: #004a7c;
 }
 
 .bottom-container {
-    background-color: #005691;
-    margin: 0px;
-    padding: 15px 0px 1px;
+  background-color: #005691;
+  margin: 0px;
+  padding: 15px 0px 1px;
 }
 
 /*************** Top section ***************/
 
 .personal-image {
-    width: 200px;
+  width: 200px;
 }
 
 .top-cloud {
-    position: absolute;
-    top: 9%;
-    right: 20%;
+  position: absolute;
+  top: 9%;
+  right: 20%;
 }
 
 .bottom-cloud {
-    position: absolute;
-    left: 20%;
+  position: absolute;
+  left: 20%;
 }
 
 /************* Profile section *************/
 
 .profile {
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
 .profile-description {
-    margin: 10px auto;
-    width: 40%;
-    text-align: justify;
-    line-height: 1.2;
+  margin: 10px auto;
+  width: 40%;
+  text-align: justify;
+  line-height: 1.2;
 }
 
 /************* Skills section *************/
 
 .skills {
-    background-color: #fafafa;
-    padding: 50px;
+  background-color: #fafafa;
+  padding: 50px;
 }
 
 .skill-row {
-    margin: 0px auto 100px auto;
-    width: 40%;
-    text-align: justify;
-    line-height: 1.2;
+  margin: 0px auto 100px auto;
+  width: 40%;
+  text-align: justify;
+  line-height: 1.2;
 }
 
 .skill-image-right {
-    float: right;
-    margin-left: 20px;
-    width: 110px;
+  float: right;
+  margin-left: 20px;
+  width: 110px;
 }
 
 .skill-image-left {
-    float: left;
-    margin-right: 20px;
-    width: 110px;
+  float: left;
+  margin-right: 20px;
+  width: 110px;
 }
 
 /************* Contact me section *************/
 
 .contact-me {
-    padding: 50px;
+  padding: 50px;
 }
 
 .contact-me-description {
-    margin: 10px auto 50px auto;
-    width: 40%;
-    text-align: justify;
-    line-height: 1.2;
+  margin: 10px auto 50px auto;
+  width: 40%;
+  text-align: justify;
+  line-height: 1.2;
 }
 
 .btn {
-    border-radius: 5px;
-    background-color: #e8f1f5;
-    color: #005691;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 1.3rem;
-    font-weight: bold;
+  border-radius: 5px;
+  background-color: #e8f1f5;
+  color: #005691;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  transition: all 0.3s ease 0s;
 }
 
 .btn:hover {
-    color: #e8f1f5;
-    background-color: #0056b1;
+  color: #e8f1f5;
+  background-color: #0056b1;
 }
 
 /************* Footer *************/
 
 .footer-link {
-    text-decoration: none;
-    font-size: 1.1rem;
-    margin: 20px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  margin: 20px;
 }
 
 .footer-link:hover {
-    color: #0076f1;
+  color: #0076f1;
 }
 
 .footer-copyright {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 /* ID selectors */
