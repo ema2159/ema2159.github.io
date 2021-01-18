@@ -57,11 +57,12 @@ p {
 .top-container {
   background-color: #fafafa;
   position: relative;
-  padding-top: 100px;
+  padding: 100px 0 0 0;
 }
 
 .middle-container {
   background-color: #004a7c;
+  padding: 100px 0 0 0;
 }
 
 .bottom-container {
