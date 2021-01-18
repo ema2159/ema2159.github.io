@@ -79,6 +79,15 @@ p {
   background-color: #004a7c;
 }
 
+.navbar-collapse {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  text-align: left;
+}
+
 /*************** Top section ***************/
 
 .personal-image {
