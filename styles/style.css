@@ -89,6 +89,14 @@ p {
   text-align: left;
 }
 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus,
+.navbar-toggler:hover {
+  outline: none;
+  box-shadow: 0 0 0 2pt #fafafa;
+}
+
 /*************** Top section ***************/
 
 .personal-image {
