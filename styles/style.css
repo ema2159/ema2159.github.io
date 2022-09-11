@@ -60,6 +60,10 @@ p {
   color: var(--sec-blue);
 }
 
+.clear-text {
+  color: var(--sec-white);
+}
+
 .hl-light {
   color: white;
 }
@@ -225,23 +229,60 @@ p {
 
 
 /************* Projects page *************/
-.project-container {
+#project-container {
   position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
-  top: 20%
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 50%;
 }
 
 .project-box {
-  padding: 100px 30px 20px 30px;
+  margin: 30px;
+  padding: 150px 30px 20px 30px;
   text-align: justify;
-  background-color: var(--sec-white);
-  width: 70%;
+  background-color: var(--sec-blue);
+  width: 100%;
   border: outset;
   border-width: 5px;
-  border-color: var(--sec-blue);
-  border-radius: 30px;
+  border-color: var(--sec-white);
+  border-radius: 20px;
+}
+
+.project-desc {
+  height: 7rem;
+  overflow: auto;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.project-desc::-webkit-scrollbar {
+  display: none;
+}
+
+.proj-desc-list li {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.project-links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.project-link-btn {
+  text-decoration: none;
+  font-size: 2.6rem;
+  margin: 0 7px;
+}
+
+.project-link-btn:hover {
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px #0076f1;
 }
 
 /************* Media Queries *************/
