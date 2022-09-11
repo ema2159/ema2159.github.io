@@ -181,7 +181,7 @@ p {
   line-height: 1.2;
 }
 
-.btn {
+.mailto-btn {
   border-radius: 5px;
   background-color: var(--main-white);
   color: var(--sec-blue);
