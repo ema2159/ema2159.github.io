@@ -52,7 +52,7 @@ projectData.forEach((project) => {
           </ul>
         </div>
         <div class="project-links">
-          <a class="project-link-btn" href=""><i class="fab fa-github"></i></a>
+          ${project.github ? '<a class="project-link-btn" href="'+project.github+'"><i class="fab fa-github"></i></a>' : ""}
           <a href=""><i></i></a>
         </div>
       </div>
