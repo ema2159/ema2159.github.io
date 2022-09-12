@@ -64,6 +64,10 @@ p {
   color: var(--sec-white);
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .hl-light {
   color: white;
 }

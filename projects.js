@@ -41,7 +41,7 @@ projectData.forEach((project) => {
     "beforeend",
     `
       <div class="project-box">
-        <h2 class="dark-text">${project.name}</h2>
+        <h2 class="dark-text bold">${project.name}</h2>
         <div class="dark-text project-desc">
           <ul class="proj-desc-list">
             ${project.descItems
