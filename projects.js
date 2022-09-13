@@ -9,15 +9,34 @@ projectData.forEach((project) => {
         <div class="dark-text project-desc">
           <ul class="proj-desc-list">
             ${project.descItems
-            .map((item) => {
-                return "<li>"+item+"</li>";
-            })
-            .join("")}
+              .map((item) => {
+                return "<li>" + item + "</li>";
+              })
+              .join("")}
           </ul>
         </div>
         <div class="project-links">
-          ${project.github ? '<a class="project-link-btn" href="'+project.github+'"><i class="fab fa-github"></i></a>' : ""}
-          <a href=""><i></i></a>
+          ${
+            project.demo
+              ? '<a class="project-link-btn" href="' +
+                project.demo +
+                '" rel="noopener noreferrer" target="_blank"><i class="fa-solid fa-play"></i></a>'
+              : ""
+          }
+          ${
+            project.github
+              ? '<a class="project-link-btn" href="' +
+                project.github +
+                '" rel="noopener noreferrer" target="_blank"><i class="fab fa-github"></i></a>'
+              : ""
+          }
+          ${
+            project.notebook
+              ? '<a class="project-link-btn" href="' +
+                project.notebook +
+                '" rel="noopener noreferrer" target="_blank"><i class="fa-solid fa-book"></i></a>'
+              : ""
+          }
         </div>
       </div>
 `
