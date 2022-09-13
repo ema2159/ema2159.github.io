@@ -1,4 +1,4 @@
-import projectData from "./projectsData.js";
+import projectData from "./data/projectsData.js";
 
 projectData.forEach((project) => {
   document.getElementById("project-container").insertAdjacentHTML(
