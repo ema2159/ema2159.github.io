@@ -274,6 +274,8 @@ p {
 .project-links {
   display: flex;
   justify-content: flex-end;
+  position: relative;
+  height: 2.6rem;
 }
 
 .project-link-btn {
