@@ -1,6 +1,7 @@
 const projectData = [
   {
     name: "Centaur Tabs",
+    affiliation: "Owner",
     descItems: [
       "Highly customizable tabs plugin for Emacs.",
       "Over 500 GitHub stars and over 50.000 downloads.",
@@ -9,6 +10,7 @@ const projectData = [
   },
   {
     name: "Doom Themes",
+    affiliation: "Maintainer",
     descItems: [
       "Doom Emacs's main theme package.",
       "Over 1900 GitHub stars and 500.000 downloads.",
@@ -17,6 +19,7 @@ const projectData = [
   },
   {
     name: "Three.js robot arm",
+    affiliation: "Owner",
     descItems: [
       "Interactive 3D robot arm with 6 degrees of freedom implemented using Three.js.",
       "In the scene, a set of balls is randomly generated and placed on the floor. When a ball is clicked, the robot arm will pick the ball and place it in the trash bin.",
@@ -27,6 +30,7 @@ const projectData = [
   },
   {
     name: "Materials, Lights, and Shadows",
+    affiliation: "Owner",
     descItems: [
       "Several Cornell Box scenes in which different properties of several elements in the scene such as the different materials, lines, colors, and shadows rendered are showcased.",
       "Properties can be interactively manipulated through a graphical user interface.",
@@ -36,6 +40,7 @@ const projectData = [
   },
   {
     name: "Global warming visualization dashboard",
+    affiliation: "Owner",
     descItems: [
       "Web dashboard with different visualizations of historical world temperature data, and world temperature anomaly.",
       "Built using the D3.js framework."
@@ -45,6 +50,7 @@ const projectData = [
   },
   {
     name: "Shader-based image processing",
+    affiliation: "Owner",
     descItems: [
       "Several image processing algorithms implemented using Three.js and GLSL shaders.",
     ],
@@ -53,6 +59,7 @@ const projectData = [
   },
   {
     name: "Shader-based color management",
+    affiliation: "Owner",
     descItems: [
       "Implementation of several color management LUT interpolation methods using OpenGL with Three.js",
     ],
@@ -61,6 +68,7 @@ const projectData = [
   },
   {
     name: "Video color cloud and elevation map visualizer",
+    affiliation: "Owner",
     descItems: [
       "3D scene in which a monitor screen with a video is displayed alongside its elevation map and color cloud.",
       "The color space and coordinates displayed can be controlled through a 3D GUI placed in the scene.",
@@ -70,6 +78,7 @@ const projectData = [
   },
   {
     name: "OpenMP/OpenCV/CUDA‐based image processing",
+    affiliation: "Owner",
     descItems: [
       "Several image processing algorithms implemented using OpenCV and OpenMP, or OpenCV and CUDA.",
     ],
@@ -77,6 +86,7 @@ const projectData = [
   },
   {
     name: "Equirectangular2CubeMap/CubeMap2Equirectangular",
+    affiliation: "Owner",
     descItems: [
       "Tool to transform equirectangular images to cube map images and viceversa.",
       "Two implementations written in C++, accelerated using either OpenMP or CUDA.",
@@ -85,6 +95,7 @@ const projectData = [
   },
   {
     name: "Eye‐Tracking algorithms",
+    affiliation: "Co-owner",
     descItems: [
       "Implementation of Velocity‐Threshold Identification (I‐VT) and Dispersion‐Threshold Identification (I‐DT) eye tracking algorithms written in Python.",
       "Implemented the Data set reader, Utility functions, Velocity‐Threshold Identification (I‐VT), Plotting functions, and Algorithms demo sections.",
@@ -94,6 +105,7 @@ const projectData = [
   },
   {
     name: "Eye‐Tracking Gaze Data Generator",
+    affiliation: "Owner",
     descItems: [
       "Random eye‐tracking gaze data generator. Written in Python using the NumPy and Matplotlib libraries.",
     ],

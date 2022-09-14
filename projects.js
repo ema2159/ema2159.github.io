@@ -5,6 +5,7 @@ projectData.forEach((project) => {
     "beforeend",
     `
       <div class="project-box">
+        <p class="dark-text project-affiliation">${project.affiliation}</p>
         <h2 class="dark-text bold">${project.name}</h2>
         <div class="dark-text project-desc">
           <ul class="proj-desc-list">

@@ -246,7 +246,7 @@ p {
 
 .project-box {
   margin: 30px;
-  padding: 150px 30px 20px 30px;
+  padding: 20px 30px 20px 30px;
   text-align: justify;
   background-color: var(--sec-white);
   width: 100%;
@@ -254,6 +254,10 @@ p {
   border-width: 10px;
   border-color: var(--sec-blue);
   border-radius: 20px;
+}
+
+.project-affiliation {
+  margin-bottom: 130px;
 }
 
 .project-desc {
