@@ -72,6 +72,11 @@ p {
   color: white;
 }
 
+.flex-center-horizontal {
+  display: flex;
+  align-items: center;
+}
+
 /**************** Containers ******************/
 
 .top-container {
@@ -273,6 +278,18 @@ p {
 
 .proj-desc-list li {
   font-size: 1.3rem;
+}
+
+.project-bottom {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.project-tool {
+  margin: 0;
+  color: var(--sec-blue)
 }
 
 .project-links {

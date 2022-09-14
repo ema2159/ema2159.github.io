@@ -7,6 +7,9 @@ const projectData = [
       "Over 500 GitHub stars and over 50.000 downloads.",
     ],
     github: "https://github.com/ema2159/centaur-tabs",
+    tools: [
+      "Elisp",
+    ],
   },
   {
     name: "Doom Themes",
@@ -16,6 +19,9 @@ const projectData = [
       "Over 1900 GitHub stars and 500.000 downloads.",
     ],
     github: "https://github.com/doomemacs/themes",
+    tools: [
+      "Elisp",
+    ],
   },
   {
     name: "Three.js robot arm",
@@ -26,7 +32,12 @@ const projectData = [
       "Kinematics calculations were done using the Kinematics Javascript library. Animations were created using the Tween.js Javascript library."
     ],
     github: "https://github.com/ema2159/ThreejsPractice",
-    demo: "https://ema2159.github.io/ThreejsPractice/src/Exercises/Exercise5/index.html"
+    demo: "https://ema2159.github.io/ThreejsPractice/src/Exercises/Exercise5/index.html",
+    tools: [
+      "Javascript",
+      "Three.js",
+      "Tween.js",
+    ],
   },
   {
     name: "Materials, Lights, and Shadows",
@@ -36,7 +47,11 @@ const projectData = [
       "Properties can be interactively manipulated through a graphical user interface.",
     ],
     github: "https://github.com/ema2159/MaterialsLightShadows",
-    demo: "https://ema2159.github.io/MaterialsLightShadows/src/"
+    demo: "https://ema2159.github.io/MaterialsLightShadows/src/",
+    tools: [
+      "Javascript",
+      "Three.js",
+    ],
   },
   {
     name: "Global warming visualization dashboard",
@@ -46,7 +61,11 @@ const projectData = [
       "Built using the D3.js framework."
     ],
     github: "https://github.com/ema2159/globalWarimingD3Visualization",
-    demo: "https://ema2159.github.io/globalWarimingD3Visualization/"
+    demo: "https://ema2159.github.io/globalWarimingD3Visualization/",
+    tools: [
+      "Javascript",
+      "D3.js",
+    ],
   },
   {
     name: "Shader-based image processing",
@@ -55,7 +74,12 @@ const projectData = [
       "Several image processing algorithms implemented using Three.js and GLSL shaders.",
     ],
     github: "https://github.com/ema2159/shaderBasedImageProcessing",
-    demo: "https://ema2159.github.io/shaderBasedImageProcessing/Exercise2/index.html"
+    demo: "https://ema2159.github.io/shaderBasedImageProcessing/Exercise2/index.html",
+    tools: [
+      "Javascript",
+      "Three.js",
+      "GLSL"
+    ],
   },
   {
     name: "Shader-based color management",
@@ -64,7 +88,12 @@ const projectData = [
       "Implementation of several color management LUT interpolation methods using OpenGL with Three.js",
     ],
     github: "https://github.com/ema2159/ShaderColorManagement",
-    demo: "https://ema2159.github.io/ShaderColorManagement/"
+    demo: "https://ema2159.github.io/ShaderColorManagement/",
+    tools: [
+      "Javascript",
+      "Three.js",
+      "GLSL"
+    ],
   },
   {
     name: "Video color cloud and elevation map visualizer",
@@ -74,7 +103,12 @@ const projectData = [
       "The color space and coordinates displayed can be controlled through a 3D GUI placed in the scene.",
     ],
     github: "https://github.com/ema2159/RealTime3DSprint",
-    demo: "https://ema2159.github.io/RealTime3DSprint/"
+    demo: "https://ema2159.github.io/RealTime3DSprint/",
+    tools: [
+      "Javascript",
+      "Three.js",
+      "GLSL"
+    ],
   },
   {
     name: "OpenMP/OpenCV/CUDA‐based image processing",
@@ -83,6 +117,12 @@ const projectData = [
       "Several image processing algorithms implemented using OpenCV and OpenMP, or OpenCV and CUDA.",
     ],
     github: "https://github.com/ema2159/OpenCVCUDAImageProcessing",
+    tools: [
+      "C++",
+      "OpenCV",
+      "OpenMP",
+      "CUDA"
+    ],
   },
   {
     name: "Equirectangular2CubeMap/CubeMap2Equirectangular",
@@ -92,6 +132,12 @@ const projectData = [
       "Two implementations written in C++, accelerated using either OpenMP or CUDA.",
     ],
     github: "https://github.com/ema2159/Equirectangular-CubeMapTransform",
+    tools: [
+      "C++",
+      "OpenCV",
+      "OpenMP",
+      "CUDA"
+    ],
   },
   {
     name: "Eye‐Tracking algorithms",
@@ -102,6 +148,13 @@ const projectData = [
       "Written using the NumPy, Pandas, SciPy, and Matplotlib Python libraries.",
     ],
     notebook: "https://colab.research.google.com/github/ema2159/ET_Project/blob/main/ET_project.ipynb",
+    tools: [
+      "Python",
+      "NumPy",
+      "SciPy",
+      "Pandas",
+      "Matplotlib"
+    ],
   },
   {
     name: "Eye‐Tracking Gaze Data Generator",
@@ -110,6 +163,12 @@ const projectData = [
       "Random eye‐tracking gaze data generator. Written in Python using the NumPy and Matplotlib libraries.",
     ],
     notebook: "https://github.com/ema2159/GazeDataGenerator/blob/main/gaze_data_generator.ipynb",
+    tools: [
+      "Python",
+      "NumPy",
+      "Pandas",
+      "Matplotlib"
+    ],
   },
 ];
 

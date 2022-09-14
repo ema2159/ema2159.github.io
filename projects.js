@@ -16,28 +16,41 @@ projectData.forEach((project) => {
               .join("")}
           </ul>
         </div>
-        <div class="project-links">
-          ${
-            project.demo
-              ? '<a class="project-link-btn" href="' +
-                project.demo +
-                '" rel="noopener noreferrer" target="_blank"><i class="fa-solid fa-play"></i></a>'
-              : ""
-          }
-          ${
-            project.github
-              ? '<a class="project-link-btn" href="' +
-                project.github +
-                '" rel="noopener noreferrer" target="_blank"><i class="fab fa-github"></i></a>'
-              : ""
-          }
-          ${
-            project.notebook
-              ? '<a class="project-link-btn" href="' +
-                project.notebook +
-                '" rel="noopener noreferrer" target="_blank"><i class="fa-solid fa-book"></i></a>'
-              : ""
-          }
+        <div class="project-bottom flex-center-horizontal">
+            <div class="project-tools flex-center-horizontal">
+                ${
+                  project.tools
+                    ? project.tools
+                        .map((tool) => {
+                          return '<p class ="project-tool dark-text bold" >' + tool + '&nbsp</p>';
+                        })
+                        .join("")
+                    : ""
+                }
+            </div>
+            <div class="project-links">
+            ${
+              project.demo
+                ? '<a class="project-link-btn" href="' +
+                  project.demo +
+                  '" rel="noopener noreferrer" target="_blank"><i class="fa-solid fa-play"></i></a>'
+                : ""
+            }
+            ${
+              project.github
+                ? '<a class="project-link-btn" href="' +
+                  project.github +
+                  '" rel="noopener noreferrer" target="_blank"><i class="fab fa-github"></i></a>'
+                : ""
+            }
+            ${
+              project.notebook
+                ? '<a class="project-link-btn" href="' +
+                  project.notebook +
+                  '" rel="noopener noreferrer" target="_blank"><i class="fa-solid fa-book"></i></a>'
+                : ""
+            }
+            </div>
         </div>
       </div>
 `
