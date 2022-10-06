@@ -22,7 +22,11 @@ projectData.forEach((project) => {
                   project.tools
                     ? project.tools
                         .map((tool) => {
-                          return '<p class ="project-tool dark-text bold" >' + tool + '&nbsp</p>';
+                          return (
+                            '<p class ="project-tool dark-text bold" >' +
+                            tool +
+                            "&nbsp</p>"
+                          );
                         })
                         .join("")
                     : ""
