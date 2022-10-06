@@ -66,7 +66,7 @@ function revealProjects() {
   projectBoxes.forEach((projectBox) => {
     let windowHeight = window.innerHeight;
     let elementTop = projectBox.getBoundingClientRect().top;
-    let elementVisible = 250;
+    let elementVisible = 170;
     if (elementTop < windowHeight - elementVisible) {
         projectBox.classList.add("active");
     } else {
