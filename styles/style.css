@@ -260,7 +260,18 @@ p {
   border-width: 10px;
   border-color: var(--sec-blue);
   border-radius: 20px;
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 0.6s all ease;
 }
+
+.project-box.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/************/
 
 .project-affiliation {
   margin-bottom: 130px;

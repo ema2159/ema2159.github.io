@@ -56,3 +56,22 @@ projectData.forEach((project) => {
 `
   );
 });
+
+function revealProjects() {
+  let projectBoxes = document.querySelectorAll(".project-box");
+  projectBoxes.forEach((projectBox) => {
+    let windowHeight = window.innerHeight;
+    let elementTop = projectBox.getBoundingClientRect().top;
+    let elementVisible = 250;
+    if (elementTop < windowHeight - elementVisible) {
+        projectBox.classList.add("active");
+    } else {
+        projectBox.classList.remove("active");
+    }
+  });
+}
+
+window.addEventListener("scroll", revealProjects);
+
+// To check the scroll position on page load
+revealProjects();
