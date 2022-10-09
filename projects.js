@@ -68,9 +68,9 @@ function revealProjects() {
     let elementTop = projectBox.getBoundingClientRect().top;
     let elementVisible = 170;
     if (elementTop < windowHeight - elementVisible) {
-        projectBox.classList.add("active");
+      projectBox.classList.add("active");
     } else {
-        projectBox.classList.remove("active");
+      projectBox.classList.remove("active");
     }
   });
 }
