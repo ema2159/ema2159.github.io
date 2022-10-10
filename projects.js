@@ -62,7 +62,7 @@ projectData.forEach((project) => {
 });
 
 function revealProjects() {
-  let projectBoxes = document.querySelectorAll(".project-box");
+  const projectBoxes = document.querySelectorAll(".project-box");
   projectBoxes.forEach((projectBox) => {
     let windowHeight = window.innerHeight;
     let elementTop = projectBox.getBoundingClientRect().top;
