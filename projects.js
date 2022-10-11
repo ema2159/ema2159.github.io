@@ -4,7 +4,7 @@ projectData.forEach((project) => {
   document.getElementById("project-container").insertAdjacentHTML(
     "beforeend",
     `
-      <div class="project-box">
+      <div class="project-box hidden">
         <p class="dark-text project-affiliation">${project.affiliation}</p>
         <h2 class="dark-text bold">${project.name}</h2>
         <div class="dark-text project-desc">
@@ -61,21 +61,15 @@ projectData.forEach((project) => {
   );
 });
 
-function revealProjects() {
-  const projectBoxes = document.querySelectorAll(".project-box");
-  projectBoxes.forEach((projectBox) => {
-    let windowHeight = window.innerHeight;
-    let elementTop = projectBox.getBoundingClientRect().top;
-    let elementVisible = 170;
-    if (elementTop < windowHeight - elementVisible) {
-      projectBox.classList.add("active");
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
     } else {
-      projectBox.classList.remove("active");
+      entry.target.classList.remove("show");
     }
   });
-}
+});
 
-window.addEventListener("scroll", revealProjects);
-
-// To check the scroll position on page load
-revealProjects();
+const hiddenElems = document.querySelectorAll(".hidden");
+hiddenElems.forEach((elem) => observer.observe(elem));
