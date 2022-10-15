@@ -9,6 +9,7 @@
   --main-white: #e8f1f5;
   --sec-blue: #005691;
   --sec-white: #fafafa;
+  --accent-color: #0047D9;
 }
 
 /* Tag selectors */
@@ -65,6 +66,10 @@ p {
 
 .clear-text {
   color: var(--sec-white);
+}
+
+.accent-text {
+  color: var(--accent-color);
 }
 
 .bold {
