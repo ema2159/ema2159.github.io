@@ -361,9 +361,6 @@ p {
 }
 
 /************* Media Queries *************/
-/* If the screen size is
-790px wide or less */
-
 @media (prefers-reduced-motion) {
   .hidden {
     transition: none;
