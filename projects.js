@@ -5,9 +5,9 @@ projectData.forEach((project) => {
     "beforeend",
     `
       <div class="project-box hidden">
-        <p class="dark-text project-affiliation">${project.affiliation}</p>
-        <h2 class="dark-text bold">${project.name}</h2>
-        <div class="dark-text project-desc">
+        <p class="clear-text project-affiliation">${project.affiliation}</p>
+        <h2 class="clear-text bold">${project.name}</h2>
+        <div class="clear-text project-desc">
           <ul class="proj-desc-list">
             ${project.descItems
               .map((item) => {
@@ -23,7 +23,7 @@ projectData.forEach((project) => {
                     ? project.tools
                         .map((tool) => {
                           return (
-                            '<p class ="project-tool dark-text bold" >' +
+                            '<p class ="project-tool clear-text bold" >' +
                             tool +
                             "&nbsp</p>"
                           );
@@ -32,7 +32,7 @@ projectData.forEach((project) => {
                     : ""
                 }
             </div>
-            <div class="project-links">
+            <div class="project-links clear-text">
             ${
               project.demo
                 ? '<a class="project-link-btn" href="' +
