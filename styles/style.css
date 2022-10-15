@@ -258,10 +258,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, 0);
-  width: min(80%, 1000px);
+  width: 100%;
 }
 
 .project-box {
@@ -269,7 +266,7 @@ p {
   padding: 20px 30px 20px 30px;
   text-align: justify;
   background-color: var(--sec-white);
-  width: 100%;
+  width: min(80%, 1000px);
   border: outset;
   border-width: 10px;
   border-color: var(--sec-blue);
