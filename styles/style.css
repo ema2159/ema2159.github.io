@@ -30,7 +30,7 @@ body {
 h1 {
   color: var(--main-blue);
   font-family: "Dancing Script", cursive;
-  font-size: 4.37rem;
+  font-size: clamp(50px, 5vw, 85px);
   margin-top: 40px;
   margin-bottom: 0;
 }
@@ -39,6 +39,7 @@ h2 {
   color: var(--main-white);
   font-family: "Rajdhani", serif;
   font-size: 2.5rem;
+  font-size: clamp(30px, 3.5vw, 40px);
   overflow-wrap: break-word;
   font-weight: bold;
 }
@@ -46,7 +47,7 @@ h2 {
 h3 {
   color: var(--sec-white);
   font-family: "Rajdhani", serif;
-  font-size: 1.5rem;
+  font-size: clamp(22px, 1.8vw, 30px);
 }
 
 a {
@@ -55,7 +56,7 @@ a {
 
 p {
   color: white;
-  font-size: 1.3rem;
+  font-size: clamp(18px, 1.5vw, 25px);
 }
 
 /* Class selectors */
@@ -163,8 +164,12 @@ p {
 
 /*************** Top section ***************/
 
+.city-img {
+  width: min(750px, 90%);
+}
+
 .personal-image {
-  width: 200px;
+  width: min(200px, 40%);
 }
 
 .top-cloud {
@@ -197,13 +202,16 @@ p {
 /************* Skills section *************/
 
 #skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: var(--sec-white);
-  padding: 50px;
+  padding: 50px 0px 50px 0px;
   scroll-margin: 50px;
 }
 
 .skill-row {
-  margin: 0px auto 60px auto;
+  margin: 0px 0px 30px 0px;
   width: min(70%, 750px);
   text-align: justify;
   line-height: 1.2;
@@ -212,13 +220,13 @@ p {
 .skill-image-right {
   float: right;
   margin-left: 20px;
-  width: 110px;
+  width: clamp(80px, 12vw, 110px)
 }
 
 .skill-image-left {
   float: left;
   margin-right: 20px;
-  width: 110px;
+  width: clamp(80px, 12vw, 110px)
 }
 
 /************* Contact me section *************/
