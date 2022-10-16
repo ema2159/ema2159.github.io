@@ -374,9 +374,20 @@ p, li {
 @media (max-width: 500px)  {
   .project-bottom {
     flex-direction: column;
+    padding: 0;
   }
   .project-box {
-    margin: 10px;
+    margin: 15px;
+    padding: 15px;
+  }
+  .project-affiliation {
+    margin-bottom: 40px;
+  }
+  .project-desc {
+    height: 4rem;
+  }
+  .project-link-btn {
+    font-size: 2rem;
   }
 }
 
