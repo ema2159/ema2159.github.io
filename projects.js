@@ -1,7 +1,8 @@
 import projectData from "./data/projectsData.js";
 
+const projectContainer = document.getElementById("project-container");
 projectData.forEach((project) => {
-  document.getElementById("project-container").insertAdjacentHTML(
+  projectContainer.insertAdjacentHTML(
     "beforeend",
     `
       <div class="project-box hidden">
