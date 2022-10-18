@@ -59,6 +59,10 @@ p, li {
   font-size: clamp(20px, 1.5vw, 25px);
 }
 
+ul {
+  list-style-type: "- ";
+}
+
 /* Class selectors */
 
 .dark-text {
@@ -305,7 +309,7 @@ p, li {
 .project-box {
   margin: 30px;
   padding: 20px 30px 20px 30px;
-  text-align: justify;
+  text-align: left;
   background-color: var(--sec-white);
   background-image: linear-gradient(
     145deg,
@@ -331,6 +335,10 @@ p, li {
   margin-bottom: 130px;
 }
 
+.proj-desc-list {
+  padding-left: 20px;
+}
+
 .project-desc {
   height: 7rem;
   overflow: auto;
@@ -351,6 +359,7 @@ p, li {
 
 .project-tool {
   margin: 0;
+  font-size: clamp(18px, 1.5vw, 25px);
 }
 
 .project-links {
@@ -378,16 +387,24 @@ p, li {
     flex-direction: column;
     padding: 0;
   }
+
   .project-box {
     margin: 15px;
     padding: 15px;
   }
+
+  .project-title, .proj-desc-list {
+    padding-left: 20px;
+  }
+
   .project-affiliation {
     margin-bottom: 40px;
   }
+
   .project-desc {
     height: 4rem;
   }
+
   .project-link-btn {
     font-size: 2rem;
   }

@@ -7,7 +7,7 @@ projectData.forEach((project) => {
     `
       <div class="project-box hidden">
         <p class="clear-text project-affiliation">${project.affiliation}</p>
-        <h2 class="clear-text bold">${project.name}</h2>
+        <h2 class="project-title clear-text bold">${project.name}</h2>
         <div class="clear-text project-desc">
           <ul class="proj-desc-list">
             ${project.descItems
