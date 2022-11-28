@@ -4,7 +4,7 @@ const projectData = [
     affiliation: "Owner",
     descItems: [
       "Highly customizable tabs plugin for Emacs.",
-      "Over 500 GitHub stars and over 50.000 downloads.",
+      "Over 600 GitHub stars and over 50.000 downloads.",
     ],
     github: "https://github.com/ema2159/centaur-tabs",
     tools: [
