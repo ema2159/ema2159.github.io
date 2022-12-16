@@ -24,6 +24,21 @@ const projectData = [
     ],
   },
   {
+    name: "tinyrenderer_rs",
+    affiliation: "Owner",
+    descItems: [
+      "Didactic OpenGL-like renderer implemented in Rust.",
+      "Implements a basic rendering pipeline, with Vertex and Fragment shaders support.",
+      "Branches show step by step the building process of the renderer.",
+    ],
+    github: "https://github.com/ema2159/tinyrenderer_rs",
+    tools: [
+      "Rust",
+      "Piston",
+      "nalgebra",
+    ],
+  },
+  {
     name: "Three.js robot arm",
     affiliation: "Owner",
     descItems: [
@@ -71,14 +86,14 @@ const projectData = [
     name: "Shader-based image processing",
     affiliation: "Owner",
     descItems: [
-      "Several image processing algorithms implemented using Three.js and GLSL shaders.",
+      "Several image processing algorithms implemented using Three.js and OpenGL shaders.",
     ],
     github: "https://github.com/ema2159/shaderBasedImageProcessing",
     demo: "https://ema2159.github.io/shaderBasedImageProcessing/Exercise2/index.html",
     tools: [
       "Javascript",
       "Three.js",
-      "GLSL"
+      "OpenGL"
     ],
   },
   {
@@ -92,7 +107,7 @@ const projectData = [
     tools: [
       "Javascript",
       "Three.js",
-      "GLSL"
+      "OpenGL"
     ],
   },
   {
@@ -107,7 +122,7 @@ const projectData = [
     tools: [
       "Javascript",
       "Three.js",
-      "GLSL"
+      "OpenGL"
     ],
   },
   {
