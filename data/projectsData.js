@@ -29,7 +29,7 @@ const projectData = [
     descItems: [
       "Didactic OpenGL-like renderer implemented in Rust.",
       "Implements a basic rendering pipeline, with Vertex and Fragment shaders support.",
-      "Branches show step by step the building process of the renderer.",
+      "Branches show step-by-step the building process of the renderer.",
     ],
     github: "https://github.com/ema2159/tinyrenderer_rs",
     tools: [
