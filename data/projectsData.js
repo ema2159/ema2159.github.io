@@ -39,6 +39,21 @@ const projectData = [
     ],
   },
   {
+    name: "tinyraytracer_rs",
+    affiliation: "Owner",
+    descItems: [
+      "Didactic raytracer implemented in Rust.",
+      "Implements raytracing for several primitive types.",
+      "Supports reflections, refractions, shadows, and environment mapping computation.",
+    ],
+    github: "https://github.com/ema2159/tinyraytracer_rs",
+    tools: [
+      "Rust",
+      "Piston",
+      "nalgebra",
+    ],
+  },
+  {
     name: "Three.js robot arm",
     affiliation: "Owner",
     descItems: [
