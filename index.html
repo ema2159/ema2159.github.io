@@ -31,164 +31,23 @@
     <link href="favicon.ico" rel="icon" />
   </head>
   <body>
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="#top">Emmanuel Bustos</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#profile">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact-me">Contact Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link bold" href="projects.html">Projects</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!-- Top container. Landing view -->
-    <div class="container-fluid top-container">
-      <h1 class="accent-text hidden">Hello there!</h1>
-      <h3 class="accent-text hidden">I'm Emmanuel</h3>
-      <img class="city-img" alt="city" src="img/city.png" />
-    </div>
     <!-- Description of myself -->
     <div class="container-fluid middle-container">
       <div id="profile">
         <img
           src="./img/circle-cropped.png"
           alt="Picture of me"
-          class="personal-image hidden"
+          class="personal-image"
         />
-        <h2>Hello</h2>
+        <h2 class="hidden">Emmanuel Bustos</h2>
         <p class="profile-description hidden">
-          Hello there! My name is Emmanuel. I'm an Electrical and Software
-          Engineer specializing in Computer Graphics. Although I know how to do
-          circuits and stuff, my passion is coding and software engineering. I
-          have experience in many programming languages and I am also very
-          open-minded when it comes to learning new technologies, allowing me to
-          be a great learner and an easy person to mentor. Also, due to my
-          engineering background, I have a wide set of skills that allow me to
-          approach problems in a great variety of ways.
+          Software engineer from Costa Rica. Currently in The Netherlands @ASML.
         </p>
-        <p class="profile-description hidden">
-          I am also a musician and I love exercising. I am an inquisitive person
-          and I enjoy being challenged!
+        <p class="profile-skills bold hidden">
+          Knows about: Rust  Python  C++  C
         </p>
-      </div>
-      <!-- Skills section -->
-      <div id="skills">
-        <h2 class="dark-text">My Skills</h2>
-
-        <div class="skill-row hidden">
-          <h3 class="dark-text bold">Python</h3>
-          <img
-            class="skill-image-left"
-            src="./img/python.svg"
-            alt="python icon"
-          />
-          <p class="dark-text">
-            I have plenty of experience programming in Python. I've used it for
-            scripting, data science, image processing, and machine learning and
-            it is my language of choice. I have hands-on experience with
-            libraries like NumPy, SciPy, Pandas, Matplotlib, Scikit-Learn,
-            Tensorflow, and PyTorch among others.
-          </p>
-        </div>
-
-        <div class="skill-row hidden">
-          <h3 class="dark-text bold">Web development</h3>
-          <img
-            class="skill-image-right"
-            src="./img/webDev.svg"
-            alt="web dev icon"
-          />
-          <p class="dark-text">
-            Also, I have a pretty modest set of skills in web development. I
-            have experience with frontend and backend web technologies including
-            (but not limited to) HTML, CSS, Bootstrap, Javascript, Typescript,
-            React.js, Node.js, Express.js, FastAPI, and MongoDB among others. I
-            am more interested in backend web development, as well as the design
-            and implementation of complex, large-scale distributed systems.
-          </p>
-        </div>
-
-        <div class="skill-row hidden">
-          <h3 class="dark-text bold">Computer Graphics</h3>
-          <img
-            class="skill-image-left"
-            src="./img/graphic-card.svg"
-            alt="graphics card icon"
-          />
-          <p class="dark-text">
-            I did my Master's in Computer Graphics for XR. I am familiar with
-            different areas of computer graphics such as image processing, 3D
-            visualization, parallel computing, and GPGPU programming, and have
-            experience with several tools and frameworks such as Unity, CUDA,
-            OpenGL, WebGL, Three.js, Babylon.js, and OpenCV.
-          </p>
-        </div>
-
-        <div class="skill-row hidden">
-          <h3 class="dark-text bold">Engineering</h3>
-          <img
-            class="skill-image-right"
-            src="./img/engineer.svg"
-            alt="engineering icon"
-          />
-          <p class="dark-text">
-            I have an engineering degree, in which I acquired plenty of skills
-            in a wide variety of areas such as mathematics, physics, and
-            statistics. I use such skills to understand problems from different
-            perspectives, which often allows me to find creative solutions.
-          </p>
-        </div>
-
-        <div class="skill-row hidden">
-          <h3 class="dark-text bold">Rust</h3>
-          <img
-            class="skill-image-left"
-            src="./img/rust.svg"
-            alt="rust lang icon"
-          />
-          <p class="dark-text">
-            Although not I am not proficient with it, I am highly interested in
-            the Rust programming language. I find it an incredibly powerful
-            language and truly believe in its potential as a high-performance,
-            low-level language. Although my knowledge of it is limited, I feel
-            it improves my skills as a programmer in general, and I am eager to
-            continue to learn more about it.
-          </p>
-        </div>
       </div>
       <!-- Contact me section -->
-      <div id="contact-me">
-        <h2>Get In Touch</h2>
-        <div class="contact-me-description hidden">
-          <p>I can solve your problems... well... some of them...</p>
-          <p>
-            I love to code, learn, and to teamwork. If you want to chat with me
-            or want to connect, feel free to contact me!
-          </p>
-        </div>
-        <a class="mailto-btn" href="mailto:ema2159@gmail.com">CONTACT ME</a>
-      </div>
       <div class="footer-links">
         <div>
           <a
@@ -209,28 +68,13 @@
           >
         </div>
       </div>
-      <p class="footer-copyright">
+      <div class="footer-copyright">
         ©
         <script>
           document.write(/\d{4}/.exec(Date())[0]);
         </script>
         Emmanuel Bustos.
-      </p>
+      </div>
     </div>
   </body>
-  <script
-    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"
-  ></script>
 </html>
